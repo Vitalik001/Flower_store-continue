@@ -9,8 +9,12 @@ public abstract class Item {
     private String description;
 
     public abstract double price();
-//    Item(String descr, double pr){
-//        description=descr;
-//    }
+    public Item(String descr, double pr){
+        description=descr;
+    }
+
+    public Item(){
+        description=null;
+    }
 
 }

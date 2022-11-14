@@ -8,13 +8,13 @@ public class FlowerBucketService {
 
     public void createbuckets(){
 
-        Flower flower1 = new CactusFlower("cactus", 5, "green", 45);
+        Flower flower1 = new CactusFlower(3, "cactus", 5, "green", 45);
 
-        Flower flower2 = new CactusFlower("cactus", 3, "green", 35);
+        Flower flower2 = new CactusFlower(4, "cactus", 3, "green", 35);
 
-        Flower flower3 = new RomashkaFlower("romashka", 50, "yellow", 23);
+        Flower flower3 = new RomashkaFlower(5, "romashka", 50, "yellow", 23);
 
-        Flower flower4 = new RomashkaFlower("romashka", 72, "white", 27);
+        Flower flower4 = new RomashkaFlower(6, "romashka", 72, "white", 27);
 
         FlowerBucket bucket1 = new FlowerBucket("bucket1");
 

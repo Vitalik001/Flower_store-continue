@@ -16,7 +16,7 @@ import java.util.List;
 public class OrderController {
 //    @GetMapping
     public List<Order> getOrders(){
-        Item item = new RomashkaFlower("romashka", 50, "white", 15);
+        Item item = new RomashkaFlower(2, "romashka", 50, "white", 15);
         Order order = new Order();
         order.addItem(item);
         order.setPaymentStrategy(new CreditCartPayment());
